@@ -1,0 +1,183 @@
+<style >
+
+body{
+  margin: 0;
+  font-family: monospace;
+
+}
+
+#designation-tag{
+  font-family: 'Sacramento',cursive;
+  color: rgb(100,100,200);
+  font-size: 2rem;
+  margin: 10px auto 10px auto;
+}
+
+a:hover{
+
+  background-color: white;
+}
+
+#logo{
+  position: absolute;
+  top:10px;
+  left: 20px;
+  color: yellow;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+}
+
+#name-tag{
+  size: 40px;
+  font-family: 'Sacramento', cursive;
+}
+
+h1{
+  color:darkblue;
+  font-weight: bold;
+}
+
+h2{
+font-family: 'Redressed', cursive;
+
+}
+
+h3{
+  color: white;
+}
+
+h4{
+font-family: 'Source Code Pro', monospace;
+}
+
+.dark-theme{
+  background-color: black;
+  color: white;
+}
+
+.summary
+{
+  width: 80%;
+  margin: 50px;
+  padding: 80px;
+  background: #252525;
+  border-radius: 10px;
+  font-family: Source Code Pro, monospace;
+
+}
+
+.work-exp
+{
+  width: 80%;
+  margin: 50px;
+  padding: 80px;
+  background: #252525;
+  border-radius: 10px;
+  color: white;
+  font-family: Source Code Pro, monospace;
+
+
+}
+
+.skills{
+  width: 80%;
+  margin: 50px;
+  padding: 80px;
+  background: #252525;
+  border-radius: 10px;
+  font-family: Source Code Pro, monospace;
+
+}
+
+.projects{
+  width: 80%;
+  margin: 50px;
+  padding: 80px;
+  background: #252525;
+  border-radius: 10px;
+  font-family: Source Code Pro, monospace;
+
+}
+
+.header {
+  margin: 0;
+  background:linear-gradient(0.25turn, #01199b, #ebf8e1, #f69d3c);
+  height: 275px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+  hr {
+    width: 10%;
+    border-style: dotted;
+    border-top: 0;
+    border-width: 7px;
+    margin-bottom: 20px;
+    border-color: orange;
+
+  }
+
+.circular{
+  border-radius: 100%
+}
+
+
+.linkedin {
+
+  position: absolute;
+  top: 100px;
+  right: 55px;
+  border-radius: 100%;
+
+}
+
+.twitter {
+
+  position: absolute;
+  top: 150px;
+  right: 50px;
+  border-radius: 100%;
+
+}
+
+.github {
+
+  position: absolute;
+  top: 200px;
+  right: 50px;
+
+}
+
+.insta{
+  position: absolute;
+  top: 250px;
+  right: 50px;
+  border-radius: 100%;
+}
+
+#soci{
+  color:black;
+  font-size: 25px;
+  position: absolute;
+  top: 20px;
+  right: 50px
+}
+
+#skills-high{
+  color:rgb(255,120,120);
+}
+
+footer{
+
+  padding-bottom: 30px;
+  padding-top: 20px;
+  bottom: 10px;
+  position: relative;
+  text-align:center;
+  color: white;
+  border-radius: 100px;
+
+
+}
+
+</style>
