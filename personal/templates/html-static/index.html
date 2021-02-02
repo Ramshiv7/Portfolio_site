@@ -155,13 +155,13 @@
     <ul>
             {% for project in projects %}
         <li><h2>{{ project.title }}<br></h2></li>
-            <img src="{{ project.image.url }}" width="100" height="100">
+            <img src="{{ project.image.url }}" width="100" height="100" >
             <br><br>{{ project.description }}
             <br>
             <br>
             <strong>CodeBase: </strong>
             {% if project.url %}
-            <a href="">{{ project.url }}</a>
+            <a href="{{ project.url }}">{{ project.url }}</a>
             <br><br>
             {% endif %}
             {% endfor %}
